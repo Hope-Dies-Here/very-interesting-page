@@ -4,8 +4,6 @@ body {
   display: grid;
   place-content: center;
   font-family: "Alfa Slab One", serif;
-
-  height: 100vh;
 }
 h2 {
   font-size: 1em;
@@ -16,6 +14,7 @@ h2 {
   animation: 5s scale ease infinite;
 }
 svg {
+  height: 15rem;
   animation: 5s scale-svg ease infinite;
   margin-inline: auto;
   width: 10rem;
